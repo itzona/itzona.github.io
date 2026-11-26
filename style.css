@@ -234,6 +234,12 @@ a {
   will-change: transform;
 }
 
+/* емоджи сред плаващите елементи (страница „За мен“) – полупрозрачни, за да не пречат */
+.tag--emo {
+  font-family: inherit;
+  opacity: 0.55;
+}
+
 .tag--chip {
   padding: 0.3em 0.6em;
   border: 1.5px solid rgba(255, 255, 255, 0.22);
